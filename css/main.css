@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url("../fonts/Raleway Bold.eot");
+  src: url("../fonts/Raleway Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway.eot");
+  src: url("../fonts/Raleway.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #f1f1f1;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo h1 {
+  display: inline-block;
+  margin: 0;
+  font-family: Raleway Bold;
+  color: #5c5d5f;
+  background-repeat: no-repeat;
+  line-height: 129px;
+  padding-left: 314px;
+  background-image: url(../img/logo-loveknitting.svg);
+  height: 107px;
+}
+
+@media (max-width: 1024px) {
+  .logo h1 {
+    background-image: url(../img/logo-loveknitting-sm.svg);
+    padding-left: 91px;
+    height: auto;
+  }
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+}
+
+form h3 {
+  margin: 4px 0;
+  float: left;
+  width: 152px;
+  font-family: Raleway;
+  color: #5c5d5f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  form h3 {
+    width: 100%;
+    margin: 0;
+    margin: 10px 0 0 0;
+  }
+}
+
+form input {
+  margin: 5px 0 5px 15px;
+  width: 270px;
+}
+
+@media (max-width: 1024px) {
+  form input {
+    margin: 2px 0;
+  }
+}
+
+form .submit {
+  margin: 20px 0;
+  width: 120px;
+  background: #0ca39a;
+  border: 1px solid #13988e;
+  color: #fff;
+  padding: 5px;
+  font-family: Raleway Bold;
+  font-size: 17px;
+}
+
+form .submit:hover {
+  background: #0d867e;
+}
+
+form .submit:active {
+  background: #0ca39a;
+}
+
+form .button {
+  display: flex;
+}
+
+form .spiner {
+  background-image: url(../img/spinner.svg);
+  width: 68px;
+  height: 63px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+form .error {
+  background: #ffbdbd;
+}

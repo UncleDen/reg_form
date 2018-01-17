@@ -1,0 +1,31 @@
+doctype html
+html
+ head
+  meta(charset="utf-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  title= "Test work"
+  link(rel="stylesheet" href="css/main.css")
+  script(src="js/jquery-3.1.1.min.js")
+  script(src="js/app.js")
+ body
+  div.logo
+   h1= "Registration Exercise"
+  form(action="/index.php" method="POST")
+   div.input
+    h3= "Email"
+    input.empty(type="text" name="email" placeholder="example@example.com") 
+    br
+   div.input
+    h3= "Birthsday"
+    input.empty(type="text" name="birthsday" placeholder="dd/mm/yyyy")
+    br
+   div.input
+    h3= "Password"
+    input.empty(type="password" name="password")
+    br
+   div.input
+    h3= "Confirm Password"
+    input.empty(type="password" name="re_password")
+    br
+   input.submit(type="submit" name="submit" value="Register")
+   
