@@ -97,7 +97,7 @@ $(document).ready(function () {
                     console.log('AJAX error: ' + text + ' | ' + error);
                 },
                 success: function (data) {
-                    //window.location.replace(' http://form2/app/success.php');
+                    window.location.replace(' http://form2/app/success.php');
                     console.log('send');
                 }
             });
